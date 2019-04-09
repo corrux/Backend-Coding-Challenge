@@ -1,0 +1,18 @@
+# An example architecture. Runs a server on port 80 corresponding
+# to the endpoints you should implement.
+version: '3'
+services:
+  app:
+    # this is a simple flask webserver
+    build: ./app
+    ports:
+      - 80:80
+  db:
+    # we're using MongoDB here, but you can use any database or store you want
+    image: mongo:3.4-xenial
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: example
+  adapter:
+    # the service that scrapes the website and endpoints
+    build: ./adapter
