@@ -139,7 +139,7 @@ $ curl -X GET -H "Authorization: JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleH
     }
 ]
 ```
-Every message has an ID, an 8-part message in hex encoding, and a timestamp.
+Every message has an ID, an 8-part message in hex encoding, and a timestamp.  One of these codes corresponds to the measurement `cumulative_fuel_used`.  It's a bonus question to figure out which ID that is (see the evaluation section)!
 
 ## Your task
 
@@ -157,3 +157,27 @@ Other than that, the rest is up to you: architecture, programming languages, fra
 ## Included files
 
 ## Evaluation
+
+You will be evaluated on the critera below.  Subjective criteria (e.g. style and convention) will be a blind review.
+
+### Completeness and correctness (50%):
+
+1. All four endpoints are implemented and return correct results. 5pts
+1. Three endpoints are implemented and return correct results. 4pts
+1. At least two endpoints are implemented and return correct results. 3pts
+1. At least two endpoints are implemented. There may be bugs or errors in the calculations, but works end to end. 2pts
+1. At least one endpoint is implemented, possibly with errors but works end to end. 1pts
+1. Anything else. 0pts
+
+### Code style and conventions (40%):
+
+1. Code is logically organized and clearly commented. Style both in code and documentation is consistent and clear.  There are at least some tests or assertions and exception handling (if necessary). 4pts
+1. Code is logically organized and clearly commented. Style both in code and documentation is consistent and clear. 3pts
+1. Code is logically organized, but documentation is inconsistent or confusing. 2pts
+1. Code is disorganized and hard to follow.  Inconsistent and arbitrary style. 1pts
+1. Anything else 0pts
+
+### Bonus (10%):
+
+1. Able to identify matching CAN stream by coding scheme.
+1. Able to narrow down CAN stream to plausible matches.
