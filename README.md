@@ -75,7 +75,7 @@ $ curl -X GET -H "Authorization: JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleH
 
 #### `/can_status`
 
-The excavator sends messages via an internal [CAN bus](https://en.wikipedia.org/wiki/CAN_bus) (the link is for your curiousity only -- you don't need to know anything about the CAN standard for this challenge).  The messages use some kind of encoding, but we can query them easily enough.  This endpoint returns the last 50:
+The excavator sends messages via an internal [CAN bus](https://en.wikipedia.org/wiki/CAN_bus) (the link is for your curiousity only -- you don't need to know anything about the CAN standard for this challenge).  The messages use some kind of encoding, but we can query them easily enough.  This endpoint returns the last 50 messages:
 
 ```bash
 $ curl -X GET -H "Authorization: JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1NTQ4MjIxMTYsImlhdCI6MTU1NDgyMTgxNiwibmJmIjoxNTU0ODIxODE2LCJpZGVudGl0eSI6MX0.IRfIYZF61DeRqhzJ_nWjQ6laYXQs96Fgt680o1AyKMM" "https://corrux-challenge.azurewebsites.net/can_stream"
