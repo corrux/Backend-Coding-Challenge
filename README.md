@@ -2,7 +2,7 @@
 
 First, thanks for your interest in corrux! We put together this coding challenge to give you a chance to show us your skills on a simplified but realistic task: harvesting, aggregating, and serving various equipment data streams.  This is our first iteration of the challenge, so if you find bugs or something is unclear, please raise an issue in the repo or email me directly: ryan@corrux.io
 
-## Description
+## Description of Problem
 
 BigCo, a construction company, would like to enhance their analytics capabilities on their single excavator.  This excavator is connected to their platform and provides data through three channels: a website, and an API with two endpoints.
 
@@ -156,6 +156,8 @@ Other than that, the rest is up to you: architecture, programming languages, fra
 
 ## Included files
 
+We've included a skeletal outline the solution.  You can run it with `docker-compose up`, if you have docker-compose installed.  Note the functions are just stubs, you will have to implement all the logic.  This is just here for your reference, so feel free to use some, all, or none of the provided code in your solution.
+
 ## Evaluation
 
 You will be evaluated on the critera below.  Subjective criteria (e.g. style and convention) will be a blind review.
@@ -181,3 +183,13 @@ You will be evaluated on the critera below.  Subjective criteria (e.g. style and
 
 1. Able to identify matching CAN stream by coding scheme. *2 pts*
 1. Able to suggest a way to narrow down CAN stream to plausible matches. *1 pt*
+
+## Submitting a solution
+
+You can fork this repo, but we don't recommend working on your fork directly. After all, anyone can see the forks and thus what you're working on.
+
+You can either work in a private repo (on any hosting service) and invite me when you're ready, or you can submit an archive to me via email (ryan@corrux.io).  However you do it, you should include clear instructions on how to run it.
+
+## Thanks
+
+Thanks and have fun!
