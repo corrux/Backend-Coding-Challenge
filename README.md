@@ -140,3 +140,20 @@ $ curl -X GET -H "Authorization: JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleH
 ]
 ```
 Every message has an ID, an 8-part message in hex encoding, and a timestamp.
+
+## Your task
+
+Your task is to pull these three data sources to a central datastore, and provide a small REST API that does some aggregations specified by the customer.  The endpoints for you to implement, in order of importance, are:
+
+* `GET excavator_operating_hours_since_last_maintenance` this endpoint just tells the customer how many operating hours ago (from now) the most recent maintenance was.  This endpoint just returns a single `number`, the decimal number of operating hours since the last maintenance event.
+* `GET excavator_average_fuel_rate_past_24h` this endpoint also returns a single `number`, the average fuel rate.  This is defined as the total fuel used in the past 24 hours divided by total operating hours in the past 24h.
+* `GET excavator_last_10_CAN_messages` this endpoint has the same response structure as the `can_stream` endpoint above.  It simply returns the ten most recent messages instead of fifty.
+* `GET excavator_operational` this endpoint will return whether the machine is operational or not, based on the last query (scrape) of the BigCo asset manager. It will be a string that says either `'operational'` or `'down'`
+
+The only design constraint is that you MUST store data you pull from the API/scrape from the website in a database or other datastore.  That is, you may not simply have your endpoints query the original endpoints to construct responses.
+
+Other than that, the rest is up to you: architecture, programming languages, frameworks whatever.  To make things easier, we provide a skeleton architecture in `docker-compose.yml` with some function stubs and comments.
+
+## Included files
+
+## Evaluation
