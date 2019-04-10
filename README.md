@@ -3,8 +3,9 @@
 First, thanks for your interest in corrux! We put together this coding challenge to give you a chance to show us your skills on a simplified but realistic task: harvesting, aggregating, and serving various equipment data streams.  This is our first iteration of the challenge, so if you find bugs or something is unclear, please raise an issue in the repo or email me directly: ryan@corrux.io
 
 ## Description of Problem
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Caterpillar_330B_Hydraulic_Excavator_side_2_-_Hillsboro%2C_Oregon.JPG/640px-Caterpillar_330B_Hydraulic_Excavator_side_2_-_Hillsboro%2C_Oregon.JPG)
 
-BigCo, a construction company, would like to enhance their analytics capabilities on their single excavator.  This excavator is connected to their platform and provides data through three channels: a website, and an API with two endpoints.
+BigCo, a construction company, would like to enhance their analytics capabilities on their single excavator.  This excavator is connected to their platform and provides data through two channels: a website, and an API with three endpoints.
 
 ### The BigCo Dashboard
 
@@ -193,3 +194,7 @@ You can either work in a private repo (on any hosting service) and invite me whe
 ## Thanks
 
 Thanks and have fun!
+
+## Image Credits
+
+* Wikimedia Commons contributors, ["File:Caterpillar 330B Hydraulic Excavator side 2 - Hillsboro, Oregon.JPG,"](https://commons.wikimedia.org/w/index.php?title=File:Caterpillar_330B_Hydraulic_Excavator_side_2_-_Hillsboro,_Oregon.JPG&oldid=43302521) Wikimedia Commons, the free media repository available at  under the  Creative Commons Attribution-Share Alike 3.0 Unported, 2.5 Generic, 2.0 Generic and 1.0 Generic license
