@@ -94,7 +94,7 @@ $ curl -X GET -H "Authorization: JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleH
             "0xb",
             "0x53"
         ],
-        "timestamp": "2019-04-09 14:11:52.016611"
+        "timestamp": "2019-04-09 14:11:00"
     },
     {   
         "id": "04",
@@ -108,7 +108,7 @@ $ curl -X GET -H "Authorization: JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleH
             "0xc",
             "0x2"
         ],
-        "timestamp": "2019-04-09 14:11:52.016611"
+        "timestamp": "2019-04-09 14:11:00"
     },
     {   
         "id": "01",
@@ -122,7 +122,7 @@ $ curl -X GET -H "Authorization: JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleH
             "0x3b",
             "0x10"
         ],
-        "timestamp": "2019-04-09 14:07:52.016611"
+        "timestamp": "2019-04-09 14:07:00"
     },
     {   
         "id": "02",
@@ -136,7 +136,7 @@ $ curl -X GET -H "Authorization: JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleH
             "0x48",
             "0x2"
         ],
-        "timestamp": "2019-04-09 14:07:52.016611"
+        "timestamp": "2019-04-09 14:07:00"
     }
 ]
 ```
