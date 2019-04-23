@@ -178,7 +178,7 @@ You will be evaluated on the critera below.  Subjective criteria (e.g. style and
 1. Code is logically organized and clearly commented. Style both in code and documentation is consistent and clear. *3 pts*
 1. Code is logically organized, but documentation is inconsistent or confusing. *2 pts*
 1. Code is disorganized and hard to follow.  Inconsistent and arbitrary style. *1 pt*
-1. Anything else *0 pts*
+1. Anything else. *0 pts*
 
 ### Bonus: up to 2 points:
 
