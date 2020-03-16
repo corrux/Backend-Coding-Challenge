@@ -180,11 +180,6 @@ You will be evaluated on the critera below.  Subjective criteria (e.g. style and
 1. Code is disorganized and hard to follow.  Inconsistent and arbitrary style. *1 pt*
 1. Anything else. *0 pts*
 
-### Bonus: up to 2 points:
-
-1. Able to identify matching CAN stream by coding scheme. *2 pts*
-1. Able to suggest a way to narrow down CAN stream to plausible matches. *1 pt*
-
 ## Submitting a solution
 
 You can fork this repo, but we don't recommend working on your fork directly. After all, anyone can see the forks and thus what you're working on.
