@@ -1,6 +1,6 @@
 # Backend-Coding-Challenge
 
-First, thanks for your interest in corrux! We put together this coding challenge to give you a chance to show us your skills on a simplified but realistic task: harvesting, aggregating, and serving various equipment data streams.  This is our first iteration of the challenge, so if you find bugs or something is unclear, please raise an issue in the repo or email me directly: danil@corrux.io
+First, thanks for your interest in corrux! We put together this coding challenge to give you a chance to show us your skills on a simplified but realistic task: harvesting, aggregating, and serving various equipment data streams.  This is our first iteration of the challenge, so if you find bugs or something is unclear, please raise an issue in the repo or email me directly: sion@corrux.io
 
 ## Description of Problem
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Caterpillar_330B_Hydraulic_Excavator_side_2_-_Hillsboro%2C_Oregon.JPG/640px-Caterpillar_330B_Hydraulic_Excavator_side_2_-_Hillsboro%2C_Oregon.JPG)
