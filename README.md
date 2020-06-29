@@ -184,7 +184,7 @@ You will be evaluated on the critera below.  Subjective criteria (e.g. style and
 
 You can fork this repo, but we don't recommend working on your fork directly. After all, anyone can see the forks and thus what you're working on.
 
-You can either work in a private repo (on any hosting service) and invite me when you're ready, or you can submit an archive to me via email (danil@corrux.io).  However you do it, you should include clear instructions on how to run it.
+You can either work in a private repo (on any hosting service) and invite me when you're ready, or you can submit an archive to me via email (sion@corrux.io).  However you do it, you should include clear instructions on how to run it.
 
 ## Thanks
 
