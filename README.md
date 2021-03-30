@@ -74,7 +74,7 @@ $ curl -X GET -H "Authorization: JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleH
 ]
 ```
 
-#### `/can_status`
+#### `/can_stream`
 
 The excavator sends messages via an internal [CAN bus](https://en.wikipedia.org/wiki/CAN_bus) (the link is for your curiousity only -- you don't need to know anything about the CAN standard for this challenge).  The messages use some kind of encoding, but we can query them easily enough.  This endpoint returns the last 50 messages:
 
